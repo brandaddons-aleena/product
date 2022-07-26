@@ -1,0 +1,439 @@
+.index {
+    max-width: 1500px;
+}
+
+a.nav-link {
+    color: black;
+    text-align: left;
+}
+
+p.text {
+    color: black;
+}
+
+.margin {
+    margin-bottom: 0px;
+}
+
+.card-title {
+    color: black;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.category {
+    padding-top: 115px;
+}
+
+.nav-pills {
+    padding-top: 50px;
+    margin-left: 580px;
+}
+
+.list {
+    padding-left: 14px;
+}
+
+.search {
+    margin-bottom: 6px;
+    margin-top: 40px;
+    width: 714px;
+}
+
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+/* card 2 */
+h1.cardtitle {
+    font-size: 30px;
+    font-family: "Montserrat", "Helvetica", Arial, sans-serif;
+    text-align: center;
+    color: #ffc800;
+    margin-top: 10px;
+}
+
+.carditem {
+    margin-top: 215px;
+}
+
+.logo {
+    padding-left: 3px;
+    padding-top: 4px;
+}
+
+.items {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    line-height: 25px;
+    padding-left: 10px;
+    padding-top: 5px;
+    list-style-type: none;
+}
+
+.th1 {
+    border-right: 2px solid orange;
+    padding-left: 15px;
+    color: #3CCF4E;
+}
+
+.th2 {
+    border-right: 2px solid orange;
+    padding-left: 25px;
+    color: #3CCF4E;
+}
+
+.th3 {
+    padding-left: 35px;
+    color: #B8405E;
+}
+
+.content1 {
+    border-right: 2px solid orange;
+    padding-right: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #576F72;
+    font-size: 12px;
+}
+
+.content2 {
+    border-right: 2px solid orange;
+    padding-right: 10px;
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #576F72;
+    font-size: 12px;
+}
+
+.content3 {
+    padding-right: 10px;
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #576F72;
+    font-size: 12px;
+}
+
+span.col1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding-left: 15px;
+    font-size: 12px;
+    padding-bottom: 1px;
+}
+
+.col-content {
+    font-family: 'Roboto', sans-serif;
+    padding-left: 50px;
+    color: #576F72;
+    font-size: 13px;
+}
+
+.feature {
+    padding-top: 20px;
+}
+
+.imgstyle {
+    padding-top: 9px;
+}
+
+/* card 2 */
+
+/* gallery */
+.headline {
+    color: black;
+    font-family: "Montserrat", "Helvetica", Arial, sans-serif;
+    padding-left: 20px;
+}
+
+img.gallery {
+    width: 150px;
+    height: 200px;
+}
+
+.padding {
+    padding-left: 20px;
+}
+
+/* gallery */
+@media (max-width: 1280px) {
+    .nav-pills {
+        margin-left: 490px;
+    }
+
+    .search {
+        width: 610px;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .nav-pills {
+        margin-left: 350px;
+    }
+
+    .search {
+        width: 480px;
+    }
+
+    .tablestyle {
+        padding-right: 0px;
+    }
+
+    .card-title {
+        padding-left: 15px;
+    }
+}
+
+@media (max-width: 912px) {
+    .nav-pills {
+        margin-left: 300px;
+    }
+
+    .search {
+        width: 420px;
+    }
+
+    .tablestyle {
+        padding-right: 0px;
+    }
+}
+
+@media (max-width: 820px) {
+    .content3 {
+        display: none;
+    }
+
+    .search {
+        width: 390px;
+    }
+
+    span.col1 {
+        font-size: 10px;
+    }
+
+    a.nav-link {
+        text-align: center;
+    }
+
+    .card-title {
+        text-align: center;
+        padding-left: 0px;
+        font-size: 20px;
+    }
+
+    .nav-pills {
+        margin-left: 250px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .search {
+        width: 360px;
+    }
+
+    span.col1 {
+        font-size: 9px;
+    }
+
+    .card-title {
+        text-align: center;
+        padding-left: 0px;
+        font-size: 15px;
+    }
+
+    .nav-pills {
+        margin-left: 220px;
+    }
+}
+
+@media (max-width: 540px) {
+    .nav-pills {
+        margin-left: 80px;
+    }
+
+    .card-title {
+        font-size: 20px;
+        padding-left: 20px;
+    }
+
+    a.nav-link {
+        font-size: 15px;
+    }
+
+    .search {
+        width: 510px;
+    }
+
+    .headline {
+        padding-left: 120px;
+    }
+
+    img.gallery {
+        width: 250px;
+        height: 300px;
+    }
+
+    .padding {
+        margin-left: 90px;
+    }
+
+    .content3 {
+        display: inline;
+    }
+
+    .carditem {
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 412px) {
+    .nav-pills {
+        margin-left: 42px;
+    }
+
+    .search {
+        width: 380px;
+    }
+
+    .headline {
+        padding-left: 80px;
+    }
+
+    .padding {
+        margin-left: 45px;
+    }
+
+    .content3 {
+        padding-right: 0px;
+        padding-left: 4px;
+    }
+}
+
+@media (max-width: 414px) {
+    .nav-pills {
+        margin-left: 42px;
+    }
+
+    .search {
+        width: 380px;
+    }
+
+    .headline {
+        padding-left: 70px;
+    }
+
+    .padding {
+        margin-left: 50px;
+    }
+
+    .content3 {
+        padding-right: 0px;
+        padding-left: 4px;
+    }
+}
+
+@media (max-width: 393px) {
+    .search {
+        width: 360px;
+    }
+
+    .padding {
+        margin-left: 35px;
+    }
+
+    .nav-pills {
+        margin-left: 25px;
+    }
+
+    .tablestyle {
+        padding-right: 10px;
+    }
+
+}
+
+@media (max-width: 390px) {
+    .nav-pills {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 384px) {
+    .nav-pills {
+        margin-left: 30px;
+    }
+
+    .search {
+        width: 350px;
+    }
+}
+
+@media (max-width: 375px) {
+    .nav-pills {
+        margin-left: 20px;
+    }
+
+    .search {
+        width: 340px;
+    }
+}
+
+@media (max-width: 360px) {
+    .search {
+        width: 330px;
+    }
+
+    .headline {
+        padding-left: 50px;
+    }
+
+    .padding {
+        padding-left: 0px;
+    }
+}
+
+@media (max-width: 320px) {
+    .search {
+        width: 290px;
+    }
+
+    .nav-pills .nav-item .nav-link {
+        padding-left: 10px;
+    }
+
+    .headline {
+        padding-left: 30px;
+    }
+
+    .padding {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 280px) {
+    .search {
+        width: 250px;
+    }
+
+    .nav-pills .nav-item .nav-link {
+        padding-right: 9px;
+    }
+
+    .nav-pills {
+        padding-top: 0px;
+    }
+
+    .category {
+        padding-top: 40px;
+    }
+
+    .headline {
+        padding-left: 10px;
+    }
+
+    .padding {
+        padding-right: 50px;
+    }
+}
